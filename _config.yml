@@ -1,35 +1,51 @@
 # SITE CONFIGURATION
-baseurl: "/type-theme"
-url: "https://rohanchandra.github.io/"
+baseurl: ""
+url: "https://kryptohandel.info"
+
+
+defaults:
+ -
+    scope:
+      path: "" # all
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /:permalink
+      published: true
+      comments: true
+      stories: true
+      genres: "Blog" # Blog, OpEd, Opinion, PressRelease, Satire, and UserGenerated
+      author: "@tradingfanbois"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type Theme
-  avatar: assets/img/avatar.png
-  favicon: assets/favicon.ico
+  title: Krypto-Handel
+  avatar: /assets/img/avatar.png
+  favicon: /assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "Ein Kryprohandel Blog. Info zum Kryptotrading." # used by search engines
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+     eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
      <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+   &copy; 2017 Alle Rechtevorbehalten. Kontakt: kryptohandel.info - hi@kryptohandel.info
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: hi@kryptohandel.info
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
   gitlab:
-  github: "rohanchandra/type-theme"
+  github:
   google_plus:
   instagram:
   linkedin:  # Full URL
@@ -39,7 +55,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: "tradingfanbois"
   wordpress:
   youtube:
 
@@ -50,16 +66,16 @@ theme_settings:
   search: false # Enable the search feature
 
   # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_email: "Email"
-  str_next_post: "Next post"
-  str_previous_post: "Previous post"
-  str_next_page: "Next"
-  str_previous_page: "Prev"
-  str_continue_reading: "Continue reading"
-  str_javascript_required_disqus: "Please enable JavaScript to view comments."
-  str_search_no_results: "No results found."
+  str_follow_on: "Folge uns auf "
+  str_rss_follow: "RSS verfolgen"
+  str_email: "E-Mail"
+  str_next_post: "Nächster Beitrag"
+  str_previous_post: "Vorheriger Beitrag"
+  str_next_page: "Weiter"
+  str_previous_page: "Zurück"
+  str_continue_reading: "Weiterlesen"
+  str_javascript_required_disqus: "Kommentare nicht verfügbar - Disqus braucht Javascript."
+  str_search_no_results: "Keine Ergebnisse."
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
@@ -71,6 +87,12 @@ theme_settings:
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"
+
+
+# content filters | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http'
+# plugin autolink: {% link "Bitfinex" "https://some/refcode" %}
+
+
 
 # BUILD SETTINGS
 markdown: kramdown
