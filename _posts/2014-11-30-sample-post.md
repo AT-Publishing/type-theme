@@ -4,6 +4,8 @@ title: Sample post
 tags: [test, sample]
 permalink: sample1
 update: 2017-11-21 14:31 +0700
+comments: true
+
 ---
 
 
