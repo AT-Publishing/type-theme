@@ -2,7 +2,7 @@
 layout: post
 title: Feature images
 feature-img: "assets/img/sample_feature_img.png"
-permalink: samle2
+permalink: sample-x/
 comments: true
 
 ---
