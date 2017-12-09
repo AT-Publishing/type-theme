@@ -4,6 +4,9 @@ title: Bitcoiner Communities und Chats
 permalink: bitcoiner-chats/
 feature-img: "assets/img/sample_feature_img.png"
 
+tags: [whalepool, telegram, communities, krypto-trading]
+
+
 comments: true
 ---
 

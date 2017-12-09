@@ -5,6 +5,8 @@ feature-img: "assets/img/sample_feature_img.png"
 permalink: haasbot-linux/
 comments: true
 
+tags: [algo-trading, haasbot, handel, kryptowaehrungen-kaufen, krypto-trading]
+
 ---
 Haasbot Installation
 

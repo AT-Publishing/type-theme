@@ -11,6 +11,8 @@ ref:
   bitmex: '<a rel="nofollow" target="_blank" href="https://www.bitmex.com/register/iYQB44">BitMEX</a>'
   coinmama: '<a rel="nofollow" target="_blank" href="https://www.coinmama.com/?ref=fny3000">CoinMama</a>'
 
+ad_728: '<iframe data-aa="147076" src="https://ad.a-ads.com/147076?size=728x90" scrolling="no" style="width:728px; height:90px; border:0px; padding:0;overflow:hidden" allowtransparency="true" frameborder="0"></iframe>'
+
 defaults:
  -
     scope:
@@ -36,10 +38,10 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-     eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <p>Suchen Sie Infos zum Kryptotrading? Wie Kryptowährungen kaufen und wo Krypto traden?<br>
+     Wie fängt man ein, und so?</p>
 
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+     <p>Das ist genau was auf `kryptohandel.info` zu finden ist.</p>
   header_text_feature_image:
   footer_text: >
    &copy; 2017 Alle Rechtevorbehalten. Kontakt: kryptohandel.info - hi@kryptohandel.info

@@ -5,6 +5,9 @@ feature-img: "assets/img/sample_feature_img.png"
 permalink: entry-exit/
 comments: true
 
+tags: [technische-analyse, ta, handel, kryptowaehrungen-kaufen, krypto-trading]
+
+
 ---
 
 Dies ist kein Blog über technische Analysen, aber wer jemals Bitcoin gekauft hat, hat wahrscheinlich zu einem gewissen Grad mit dem Trading gespielt. Es ist Geld zu verdienen. Relevant genug?

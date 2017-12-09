@@ -12,6 +12,7 @@ layout: default
     </p>
   </header>
   <section class="post-content">
+    <p>{{ site.ad_728 }}</p>
     {{ content | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
   </section>
   {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
